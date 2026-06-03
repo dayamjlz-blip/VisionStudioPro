@@ -37,13 +37,10 @@ Aplikasi ini mengemas 6 modul pemrosesan citra ke dalam antarmuka yang sangat re
 Proyek ini menggunakan arsitektur modular (MVC) untuk memisahkan antara *logic*, antarmuka (UI), dan *file* utama agar mudah dikembangkan.
 
 ```text
-VisionStudio_Project/
+Project pcd/
 │
-├── core/
+
 ├── app.py                    # File utama eksekusi aplikasi
-│   ├── image_filters.py      # Engine utama (Logika OpenCV & NumPy)
-│   └── ui_components.py      # Komponen UI, CSS Styling, dan Layout
-│
 ├──  images/                  # Folder berisi gambar original & hasil screenshot pengujian
 └── README.md                 # Dokumentasi proyek
 ├── requirements.txt          # Daftar dependensi library
