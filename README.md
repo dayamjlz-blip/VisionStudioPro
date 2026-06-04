@@ -42,5 +42,7 @@ Project pcd/
 
 ├── app.py                    # File utama eksekusi aplikasi
 ├──  images/                  # Folder berisi gambar original & hasil screenshot pengujian
+│     ├── asli
+│    ├── hasil           
 └── README.md                 # Dokumentasi proyek
 ├── requirements.txt          # Daftar dependensi library
